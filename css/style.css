@@ -1263,7 +1263,7 @@ article .content .caption {
   color: #666;
   vertical-align: top;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 #footer ul {
   margin: 0;
@@ -1574,7 +1574,7 @@ pre {
   padding: 10px 15px;
   padding-bottom: 0;
   border: 1px dotted #666;
-  border-radius: 4px;
+  border-radius: 14px;
   font-size: 13px;
   font-family: "Menlo", "Meslo LG", monospace;
   line-height: 22px;
