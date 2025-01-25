@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>hello world</title>
+      <link href="/2025/01/25/hello-world-1/"/>
+      <url>/2025/01/25/hello-world-1/</url>
+      
+        <content type="html"><![CDATA[<p>this is a test page.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开始进入Kubernetes的世界</title>
+      <link href="/2025/01/24/%E5%BC%80%E5%A7%8B%E8%BF%9B%E5%85%A5Kubernetes%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+      <url>/2025/01/24/%E5%BC%80%E5%A7%8B%E8%BF%9B%E5%85%A5Kubernetes%E7%9A%84%E4%B8%96%E7%95%8C/</url>
+      
+        <content type="html"><![CDATA[<p>Kubernetes-生产级别的容器编排系统<br>Kubernetes也成为K8s，是谷歌开发的第三个容器管理系统，适用于自动部署、扩缩和管理容器化应用的开源系统。</p><p>Kubernets特性:</p><ul><li>全自动容灾机制</li><li>全自动扩缩容回滚</li><li>服务发现与负载均衡</li></ul><p>包括一些资源调度&#x2F;自我修复&#x2F;存储编排&#x2F;批量执行和ipv4和ipv6地址的支持等。<br>它将组成应用程序的容器组合成逻辑单元，以便于管理和服务发现。Kubernetes源自Google 15年生产环境的运维经验。在相应的生产环境中，Etcd Cluster及Master建议至少部署三台以上，Etcd Cluster建议使用SSD磁盘，可能会有性能跟不上的问题，在保障数据安全的基础上，也要避免部署台数为偶数，否则会出现脑裂的情况。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2025/01/24/hello-world/"/>
+      <url>/2025/01/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
