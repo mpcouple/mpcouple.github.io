@@ -623,10 +623,10 @@ body {
 }
 #header #nav {
   color: #2bbc8a;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.1em;
   font-weight: 200;
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 #header #nav ul {
   margin: 0;
@@ -825,10 +825,10 @@ body {
 #header-post #toc {
   float: right;
   clear: both;
-  overflow: auto;
+  overflow: hidden;
   margin-top: 1rem;
   padding-right: 2rem;
-  max-width: 20em;
+  max-width: 30em;
   max-height: calc(95vh - 7rem);
   text-align: right;
 }
@@ -840,7 +840,7 @@ body {
 }
 #header-post #toc .toc-level-2 {
   color: #383838;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 #header-post #toc .toc-level-2:before {
   color: #2bbc8a;
@@ -848,11 +848,11 @@ body {
 }
 #header-post #toc .toc-level-3 {
   color: #666;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 #header-post #toc .toc-level-4 {
   color: #525252;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 #header-post #toc .toc-level-5 {
   display: none;
@@ -1081,6 +1081,15 @@ body {
 }
 .project-list .project-item p {
   display: inline;
+}
+#writing {
+  font-size: 1.5rem;
+}
+#writing span {
+  font-size: 0.9rem;
+}
+#writing .widget a {
+  font-size: 0.9rem !important;
 }
 article header .posttitle {
   margin-top: 0;
