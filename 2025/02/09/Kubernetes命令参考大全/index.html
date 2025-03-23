@@ -29,7 +29,7 @@
   <!-- front-matter head_begin end -->
     <link rel="shortcut icon" type='image/x-icon' href="/custom/logo.svg">
   <link rel="preload" href="/css/style.css" as="style">
-  <link rel="preload" href="https://gcore.jsdelivr.net/gh/inkss/common@1/fonts/canva/LiuJianMaoCao.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/custom/my.png" as="font" type="font/png" crossorigin="anonymous">
 <link rel="preload" href="/custom/OPPOSans-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
   <!-- feed -->
@@ -46,10 +46,10 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/custom/log.svg">
 <meta property="article:published_time" content="2025-02-09T11:31:35.367Z">
-<meta property="article:modified_time" content="2025-02-19T13:43:32.380Z">
+<meta property="article:modified_time" content="2025-03-23T10:29:38.606Z">
 <meta property="article:author" content="Mann">
 <meta property="article:tag" content="Kubernetes">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/custom/log.svg">
   <style>
     /* 首屏样式 */
@@ -878,7 +878,7 @@ button {
 }
 @font-face {
   font-family: 'mp';
-  src: url("https://gcore.jsdelivr.net/gh/inkss/common@1/fonts/canva/LiuJianMaoCao.woff2");
+  src: url("/custom/my.png");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1793,7 +1793,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1742721894934),
+    lastupdate: new Date(1742727267691),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo","music"],
       for_post: ["toc"],
@@ -2245,7 +2245,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='/custom/logo.svg'/>
+            <img no-lazy class='logo' src='https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png'/>
           
           
           
@@ -2261,13 +2261,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="主页"
+                href="/" title="Alldocuments"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                  <i class='fa-solid fa-rss fa-fw'></i>Alldocuments
                 </a>
                 
               </li>
@@ -2278,107 +2278,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="更多"
+                href="/tags/Linux/" title="Linux"
                   
                   
+                  
+                    active-action="action-tagsLinux"
                   >
-                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
-                </a>
-                
-                  <ul class="list-v">
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Linux
                 </a>
                 
               </li>
             
           
-                    
-                      
+          
+            
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
+                href="/tags/Docker/" title="Docker"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-tagsDocker"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                  <i class='fa-solid fa-tags fa-fw'></i>Docker
                 </a>
                 
               </li>
             
           
-                    
-                      
+          
+            
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/tags/Kubernetes/" title="Kubernetes"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-tagsKubernetes"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-archive fa-fw'></i>Kubernetes
                 </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <hr>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
-                  
-                  
-                  
-                    active-action="action-friends"
-                  >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
-                </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
-                  
-                  
-                  
-                    active-action="action-about"
-                  >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
-                </a>
-                
-              </li>
-            
-          
-                    
-                  </ul>
                 
               </li>
             
@@ -2388,7 +2329,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>Daytimemode
                 </a>
               <li>
             
@@ -2400,7 +2341,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
           <i class="icon fa-solid fa-search fa-fw"></i>
-          <input type="text" class="input u-search-input" placeholder="- 搜搜有意思的 -" />
+          <input type="text" class="input u-search-input" placeholder="mp note searching - mp" />
         </form>
       </div>
       
@@ -2417,13 +2358,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="主页"
+                href="/" title="Alldocuments"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                  <i class='fa-solid fa-rss fa-fw'></i>Alldocuments
                 </a>
                 
               </li>
@@ -2434,107 +2375,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="更多"
+                href="/tags/Linux/" title="Linux"
                   
                   
+                  
+                    active-action="action-tagsLinux"
                   >
-                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
-                </a>
-                
-                  <ul class="list-v">
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Linux
                 </a>
                 
               </li>
             
           
-                    
-                      
+            
+              
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
+                href="/tags/Docker/" title="Docker"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-tagsDocker"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                  <i class='fa-solid fa-tags fa-fw'></i>Docker
                 </a>
                 
               </li>
             
           
-                    
-                      
+            
+              
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/tags/Kubernetes/" title="Kubernetes"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-tagsKubernetes"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-archive fa-fw'></i>Kubernetes
                 </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <hr>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
-                  
-                  
-                  
-                    active-action="action-friends"
-                  >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
-                </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
-                  
-                  
-                  
-                    active-action="action-about"
-                  >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
-                </a>
-                
-              </li>
-            
-          
-                    
-                  </ul>
                 
               </li>
             
@@ -2544,7 +2426,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>Daytimemode
                 </a>
               <li>
             
@@ -2674,7 +2556,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
   <a itemprop="url" class='author' href="/" rel="nofollow">
     <img itemprop="image" src="/custom/avatar.jpg" class="lazyload" data-srcset="/custom/avatar.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-    <p itemprop="name">TiDra</p>
+    <p itemprop="name">你想改啥就改啥</p>
   </a>
 </div>
 
@@ -2682,6 +2564,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
             
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/Kubernetes/">Kubernetes</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/Kubernetes/" itemprop="url"><span itemprop="name">Kubernetes</span></a>
+      </span>
+    
+  </div>
+
 
           
         
@@ -2742,7 +2634,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <h2 id="kubectl-create"><a href="#kubectl-create" class="headerlink" title="kubectl create"></a>kubectl create</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">kubectl create -f filename.yaml                       <span class="comment">#创建一个资源</span></span><br><span class="line">kubectl create token admin-user -n kube-system        <span class="comment">#创建token</span></span><br><span class="line">kubectl create deployment nginx --image=nginx         <span class="comment">#启动单实例nginx</span></span><br><span class="line">kubectl create deployment nginx --image=nginx --dry-run=client -oyaml &gt; deploy.yaml  <span class="comment">#为运行 nginx deploy 生成规约并将其写入到名为 pod.yaml 的文件</span></span><br></pre></td></tr></table></figure>
 <h2 id="kubectl-apply"><a href="#kubectl-apply" class="headerlink" title="kubectl apply"></a>kubectl apply</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">kubectl apply -f filename.yaml                        <span class="comment">#创建资源</span></span><br><span class="line">kubectl apply -f filename1.yaml -f filename2.yaml     <span class="comment">#使用多个文件创建</span></span><br><span class="line">kubectl apply -f <span class="built_in">dirname</span>                              <span class="comment">#基于目录下的所有文件创建资源</span></span><br><span class="line">kubectl apply -f https://example.com/myfile.yaml      <span class="comment">#通过公网创建资源，建议下载到本地执行创建</span></span><br></pre></td></tr></table></figure>
 <h2 id="kubectl-delete"><a href="#kubectl-delete" class="headerlink" title="kubectl delete"></a>kubectl delete</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">kubectl delete pod podname                      <span class="comment">#删除一个自己创建的 Pod</span></span><br><span class="line">kubectl delete -f filename.yaml                 <span class="comment">#删除一个名称为filename的资源</span></span><br><span class="line">kubectl delete deploy deployname                <span class="comment">#删除一个名称为deployname的deployment</span></span><br></pre></td></tr></table></figure>
-<h2 id="kubectl-replace-x2F-edit"><a href="#kubectl-replace-x2F-edit" class="headerlink" title="kubectl replace&#x2F;edit"></a>kubectl replace&#x2F;edit</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">kubectl replace -f deployfile.yaml              <span class="comment">#更新一个名称为deployfile的资源配置信息</span></span><br><span class="line">kubectl edit deploy                             <span class="comment">#执行后会显示所有的deployment信息可进行内容修改</span></span><br><span class="line">kubectl edit deploy deployname                  <span class="comment">#执行后会显示名称为deployname信息可进行内容修改</span></span><br></pre></td></tr></table></figure>
+<h2 id="kubectl-replace-edit"><a href="#kubectl-replace-edit" class="headerlink" title="kubectl replace&#x2F;edit"></a>kubectl replace&#x2F;edit</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">kubectl replace -f deployfile.yaml              <span class="comment">#更新一个名称为deployfile的资源配置信息</span></span><br><span class="line">kubectl edit deploy                             <span class="comment">#执行后会显示所有的deployment信息可进行内容修改</span></span><br><span class="line">kubectl edit deploy deployname                  <span class="comment">#执行后会显示名称为deployname信息可进行内容修改</span></span><br></pre></td></tr></table></figure>
 <h2 id="kubectl-get"><a href="#kubectl-get" class="headerlink" title="kubectl get"></a>kubectl get</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">kubectl get pod                            <span class="comment">#列出当前命名空间下的全部Pod</span></span><br><span class="line">kubectl get pod -owide                     <span class="comment">#列出当前命名空间下的全部Pod并显示详细信息</span></span><br><span class="line">kubectl get pod -owide -n kube-system      <span class="comment">#列出kube-system命名空间下的所有pod并显示详细信息</span></span><br><span class="line">kubectl get pod -owide --all-namespaces    <span class="comment">#列出所有命名空间下的全部的Pod并显示详细信息</span></span><br><span class="line">kubectl get pod podname -oyaml             <span class="comment">#获取一个 Pod 的yaml</span></span><br><span class="line"></span><br><span class="line">kubectl get pod --show-labels              <span class="comment">#显示所有Pod的标签</span></span><br><span class="line">kubectl get pod --show-labels -l app=nginx <span class="comment">#显示标签名称为app=nginx的pod列表</span></span><br><span class="line"></span><br><span class="line">kubectl get rs                             <span class="comment">#列出当前命名空间下的rs</span></span><br><span class="line">kubectl get deploy                         <span class="comment">#列出当前命名空间下的deployment</span></span><br><span class="line">kubectl get deploy -n kube-system          <span class="comment">#列出kube-system命令空间的deployment</span></span><br><span class="line">kubectl get deploy -A                      <span class="comment">#列出整个集群中的deploy的资源</span></span><br><span class="line"></span><br><span class="line">kubectl get -f nginx.yaml -o yaml          <span class="comment">#查看创建的yaml的格式信息</span></span><br><span class="line">kubectl get deploy deployname -n NAMESPACE <span class="comment">#列出某个命令空间下的名称为deployname的deployment</span></span><br><span class="line">kubectl get deploy deployname -n NAMESPACE -oyaml <span class="comment">#列出某个命令空间下的名称为deployname的deployment并导出为yaml格式</span></span><br></pre></td></tr></table></figure>
 <h2 id="kubectl-run"><a href="#kubectl-run" class="headerlink" title="kubectl run"></a>kubectl run</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">kubectl run nginx --image=nginx --port=80   <span class="comment">#通过命令行的形式创建一个pod</span></span><br><span class="line">kubectl run nginx --image=nginx --dry-run -oyaml &gt; nginx.yaml  <span class="comment">#通过命令行的形式创建pod生成yaml文件</span></span><br><span class="line">kubectl run nginx --image=nginx --port=80 --namespace=dev --dry-run -oyaml &gt; nginx.yaml    <span class="comment">#通过命令行的形式创建pod生成yaml文件,在dev命名空间下并增加了80端口</span></span><br></pre></td></tr></table></figure>
 <h2 id="kubectl-explain"><a href="#kubectl-explain" class="headerlink" title="kubectl explain"></a>kubectl explain</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
@@ -2821,10 +2713,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-02-19T21:43:32+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-03-23T18:29:38+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2025年2月19日</p>
+    <p>更新于：2025年3月23日</p>
   </a>
 </div>
 
@@ -2921,7 +2813,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%91%BD%E4%BB%A4%E6%A0%BC%E5%BC%8F"><span class="toc-text">命令格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8"><span class="toc-text">自动补全</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9F%E8%AE%B0%E5%88%AB%E5%90%8D"><span class="toc-text">速记别名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-create"><span class="toc-text">kubectl create</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-apply"><span class="toc-text">kubectl apply</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-delete"><span class="toc-text">kubectl delete</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-replace-x2F-edit"><span class="toc-text">kubectl replace&#x2F;edit</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-get"><span class="toc-text">kubectl get</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-run"><span class="toc-text">kubectl run</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-explain"><span class="toc-text">kubectl explain</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-logs"><span class="toc-text">kubectl logs</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#kubectl-%E6%9B%B4%E6%96%B0%E8%B5%84%E6%BA%90"><span class="toc-text">kubectl 更新资源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#kubectl-%E8%BF%9B%E8%A1%8C%E6%89%A9%E7%BC%A9"><span class="toc-text">kubectl 进行扩缩</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8E%E8%BF%90%E8%A1%8C%E4%B8%AD%E7%9A%84Pod%E4%BA%A4%E4%BA%92"><span class="toc-text">与运行中的Pod交互</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%8E%E5%AE%B9%E5%99%A8%E4%B8%AD%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95"><span class="toc-text">从容器中复制文件和目录</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8E%E8%8A%82%E7%82%B9%E5%92%8C%E9%9B%86%E7%BE%A4%E8%BF%9B%E8%A1%8C%E4%BA%A4%E4%BA%92"><span class="toc-text">与节点和集群进行交互</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8E-Deployments-%E5%92%8C-Services-%E8%BF%9B%E8%A1%8C%E4%BA%A4%E4%BA%92"><span class="toc-text">与 Deployments 和 Services 进行交互</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B"><span class="toc-text">资源类型</span></a></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%91%BD%E4%BB%A4%E6%A0%BC%E5%BC%8F"><span class="toc-text">命令格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8"><span class="toc-text">自动补全</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9F%E8%AE%B0%E5%88%AB%E5%90%8D"><span class="toc-text">速记别名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-create"><span class="toc-text">kubectl create</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-apply"><span class="toc-text">kubectl apply</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-delete"><span class="toc-text">kubectl delete</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-replace-edit"><span class="toc-text">kubectl replace&#x2F;edit</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-get"><span class="toc-text">kubectl get</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-run"><span class="toc-text">kubectl run</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-explain"><span class="toc-text">kubectl explain</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kubectl-logs"><span class="toc-text">kubectl logs</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#kubectl-%E6%9B%B4%E6%96%B0%E8%B5%84%E6%BA%90"><span class="toc-text">kubectl 更新资源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#kubectl-%E8%BF%9B%E8%A1%8C%E6%89%A9%E7%BC%A9"><span class="toc-text">kubectl 进行扩缩</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8E%E8%BF%90%E8%A1%8C%E4%B8%AD%E7%9A%84Pod%E4%BA%A4%E4%BA%92"><span class="toc-text">与运行中的Pod交互</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%8E%E5%AE%B9%E5%99%A8%E4%B8%AD%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95"><span class="toc-text">从容器中复制文件和目录</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8E%E8%8A%82%E7%82%B9%E5%92%8C%E9%9B%86%E7%BE%A4%E8%BF%9B%E8%A1%8C%E4%BA%A4%E4%BA%92"><span class="toc-text">与节点和集群进行交互</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8E-Deployments-%E5%92%8C-Services-%E8%BF%9B%E8%A1%8C%E4%BA%A4%E4%BA%92"><span class="toc-text">与 Deployments 和 Services 进行交互</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B"><span class="toc-text">资源类型</span></a></li></ol></li></ol></li></ol>
     </div>
   </section>
 
@@ -3034,8 +2926,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2024 小TiD笔记</a></p>
-
+        
         </div>
       
     
@@ -3071,10 +2962,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 <!-- required -->
-
-  
-<script src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/jquery/dist/jquery.min.js"></script>
-
 
 
 <!-- internal -->
@@ -4027,7 +3914,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","sameAs":["https://github.com/Tidra"],"description":"zero in your target,and go for it."},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Mann"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2025/02/09/Kubernetes命令参考大全/","name":"Kubernetes命令参考大全"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Mann","url":"http://example.com/","keywords":null,"description":"zero in your target,and go for it.","author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","description":"zero in your target,and go for it."},"publisher":{"@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Kubernetes命令参考大全","description":"zero in your target,and go for it.","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/02/09/Kubernetes%E5%91%BD%E4%BB%A4%E5%8F%82%E8%80%83%E5%A4%A7%E5%85%A8/"},"author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Mann","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"url":"http://example.com/2025/02/09/Kubernetes%E5%91%BD%E4%BB%A4%E5%8F%82%E8%80%83%E5%A4%A7%E5%85%A8/","wordCount":0,"datePublished":"2025-02-09T11:31:35.367Z","dateModified":"2025-02-19T13:43:32.380Z","keywords":"Kubernetes","image":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","sameAs":["https://github.com/mpcouple/mpcouple.github.io"],"description":"zero in your target,and go for it."},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Mann"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/Kubernetes/","name":"Kubernetes"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2025/02/09/Kubernetes命令参考大全/","name":"Kubernetes命令参考大全"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Mann","url":"http://example.com/","keywords":null,"description":"zero in your target,and go for it.","author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","description":"zero in your target,and go for it."},"publisher":{"@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Kubernetes命令参考大全","description":"zero in your target,and go for it.","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/02/09/Kubernetes%E5%91%BD%E4%BB%A4%E5%8F%82%E8%80%83%E5%A4%A7%E5%85%A8/"},"author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Mann","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"url":"http://example.com/2025/02/09/Kubernetes%E5%91%BD%E4%BB%A4%E5%8F%82%E8%80%83%E5%A4%A7%E5%85%A8/","wordCount":0,"datePublished":"2025-02-09T11:31:35.367Z","dateModified":"2025-03-23T10:29:38.606Z","articleSection":"Kubernetes","keywords":"Kubernetes","image":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}}]</script>
 
 
 

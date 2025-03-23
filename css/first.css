@@ -823,7 +823,7 @@ button {
 }
 @font-face {
   font-family: 'mp';
-  src: url("https://gcore.jsdelivr.net/gh/inkss/common@1/fonts/canva/LiuJianMaoCao.woff2");
+  src: url("/custom/my.png");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;

@@ -29,7 +29,7 @@
   <!-- front-matter head_begin end -->
     <link rel="shortcut icon" type='image/x-icon' href="/custom/logo.svg">
   <link rel="preload" href="/css/style.css" as="style">
-  <link rel="preload" href="https://gcore.jsdelivr.net/gh/inkss/common@1/fonts/canva/LiuJianMaoCao.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/custom/my.png" as="font" type="font/png" crossorigin="anonymous">
 <link rel="preload" href="/custom/OPPOSans-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
   <!-- feed -->
@@ -46,7 +46,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/custom/log.svg">
 <meta property="article:author" content="Mann">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/custom/log.svg">
   <style>
     /* 首屏样式 */
@@ -875,7 +875,7 @@ button {
 }
 @font-face {
   font-family: 'mp';
-  src: url("https://gcore.jsdelivr.net/gh/inkss/common@1/fonts/canva/LiuJianMaoCao.woff2");
+  src: url("/custom/my.png");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1790,7 +1790,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1742721894934),
+    lastupdate: new Date(1742727267691),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo","music"],
       for_post: ["toc"],
@@ -2242,7 +2242,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='/custom/logo.svg'/>
+            <img no-lazy class='logo' src='https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png'/>
           
           
           
@@ -2258,13 +2258,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="主页"
+                href="/" title="Alldocuments"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                  <i class='fa-solid fa-rss fa-fw'></i>Alldocuments
                 </a>
                 
               </li>
@@ -2275,107 +2275,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="更多"
+                href="/tags/Linux/" title="Linux"
                   
                   
+                  
+                    active-action="action-tagsLinux"
                   >
-                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
-                </a>
-                
-                  <ul class="list-v">
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Linux
                 </a>
                 
               </li>
             
           
-                    
-                      
+          
+            
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
+                href="/tags/Docker/" title="Docker"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-tagsDocker"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                  <i class='fa-solid fa-tags fa-fw'></i>Docker
                 </a>
                 
               </li>
             
           
-                    
-                      
+          
+            
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/tags/Kubernetes/" title="Kubernetes"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-tagsKubernetes"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-archive fa-fw'></i>Kubernetes
                 </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <hr>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
-                  
-                  
-                  
-                    active-action="action-friends"
-                  >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
-                </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
-                  
-                  
-                  
-                    active-action="action-about"
-                  >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
-                </a>
-                
-              </li>
-            
-          
-                    
-                  </ul>
                 
               </li>
             
@@ -2385,7 +2326,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>Daytimemode
                 </a>
               <li>
             
@@ -2397,7 +2338,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
           <i class="icon fa-solid fa-search fa-fw"></i>
-          <input type="text" class="input u-search-input" placeholder="- 搜搜有意思的 -" />
+          <input type="text" class="input u-search-input" placeholder="mp note searching - mp" />
         </form>
       </div>
       
@@ -2414,13 +2355,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="主页"
+                href="/" title="Alldocuments"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                  <i class='fa-solid fa-rss fa-fw'></i>Alldocuments
                 </a>
                 
               </li>
@@ -2431,107 +2372,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="更多"
+                href="/tags/Linux/" title="Linux"
                   
                   
+                  
+                    active-action="action-tagsLinux"
                   >
-                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
-                </a>
-                
-                  <ul class="list-v">
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Linux
                 </a>
                 
               </li>
             
           
-                    
-                      
+            
+              
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
+                href="/tags/Docker/" title="Docker"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-tagsDocker"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                  <i class='fa-solid fa-tags fa-fw'></i>Docker
                 </a>
                 
               </li>
             
           
-                    
-                      
+            
+              
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/tags/Kubernetes/" title="Kubernetes"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-tagsKubernetes"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-archive fa-fw'></i>Kubernetes
                 </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <hr>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
-                  
-                  
-                  
-                    active-action="action-friends"
-                  >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
-                </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
-                  
-                  
-                  
-                    active-action="action-about"
-                  >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
-                </a>
-                
-              </li>
-            
-          
-                    
-                  </ul>
                 
               </li>
             
@@ -2541,7 +2423,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>Daytimemode
                 </a>
               <li>
             
@@ -2694,6 +2576,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <time itemprop="dateCreated datePublished" datetime="2025-01-25T11:43:35+08:00">2025-01-25</time>
         
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/Docker/">Docker</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/Docker/" itemprop="url"><span itemprop="name">Docker</span></a>
+            </span>
+          
+        
       </div>
       
         <div>
@@ -2762,6 +2652,14 @@ Kubernets特性:
         
         <time itemprop="dateCreated datePublished" datetime="2025-01-24T21:26:20+08:00">2025-01-24</time>
         
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/Kubernetes/">Kubernetes</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/Kubernetes/" itemprop="url"><span itemprop="name">Kubernetes</span></a>
+            </span>
+          
+        
       </div>
       
         <div>
@@ -2799,14 +2697,14 @@ Kubernets特性:
     
       
         <a class='avatar flat-box circle' href='/about/'>
-          <img no-lazy src='/custom/avatar.jpg'/>
+          <img no-lazy src='https://img.wxcha.com/file/201809/13/867cd0088d.jpg?down'/>
         </a>
       
     
     
       <div class='text'>
         
-          <h2>TiDra</h2>
+          <h2>Mylyd</h2>
         
         
         
@@ -2828,7 +2726,7 @@ Kubernets特性:
           
         
           
-            <a href="https://github.com/Tidra/"
+            <a href="https://github.com/mpcouple/mpcouple.github.io"
               class="social fab fa-github flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -2857,6 +2755,33 @@ Kubernets特性:
     
     
       
+  
+  <section class="widget category desktop pjax">
+    
+  <header>
+    
+      <a href='/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <ul class="entry navigation">
+        
+          <li><a class="flat-box"
+            title="/categories/Docker/" href="/categories/Docker/"
+            active-action="action-categoriesDocker"
+            ><div class='name'>Docker</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/Kubernetes/" href="/categories/Kubernetes/"
+            active-action="action-categoriesKubernetes"
+            ><div class='name'>Kubernetes</div><div class='badge'>(10)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
 
     
   
@@ -2906,11 +2831,6 @@ Kubernets特性:
         </div>
       
 
-      
-        <div class="webinfo-item">
-          <div>已运行时间：</div>
-          <div id="webinfo-runtime-count"></div>
-        </div>
       
 
 
@@ -3066,8 +2986,7 @@ Kubernets特性:
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2024 小TiD笔记</a></p>
-
+        
         </div>
       
     
@@ -3103,10 +3022,6 @@ Kubernets特性:
 </script>
 
 <!-- required -->
-
-  
-<script src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/jquery/dist/jquery.min.js"></script>
-
 
 
 <!-- internal -->
@@ -4059,7 +3974,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","sameAs":["https://github.com/Tidra"],"description":"zero in your target,and go for it."},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Mann"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/archives/","name":"Archive"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/archives/2025/","name":"2025年"}},{"@type":"ListItem","position":4,"item":{"@id":"http://example.com/archives/2025/1/","name":"1月"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Mann","url":"http://example.com/","keywords":null,"description":"zero in your target,and go for it.","author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","description":"zero in your target,and go for it."},"publisher":{"@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"zero in your target,and go for it.","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Mann","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","sameAs":["https://github.com/mpcouple/mpcouple.github.io"],"description":"zero in your target,and go for it."},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Mann"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/archives/","name":"Archive"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/archives/2025/","name":"2025年"}},{"@type":"ListItem","position":4,"item":{"@id":"http://example.com/archives/2025/1/","name":"1月"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Mann","url":"http://example.com/","keywords":null,"description":"zero in your target,and go for it.","author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","description":"zero in your target,and go for it."},"publisher":{"@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"zero in your target,and go for it.","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Mann","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}}]</script>
 
 
 

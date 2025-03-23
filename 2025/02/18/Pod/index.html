@@ -29,7 +29,7 @@
   <!-- front-matter head_begin end -->
     <link rel="shortcut icon" type='image/x-icon' href="/custom/logo.svg">
   <link rel="preload" href="/css/style.css" as="style">
-  <link rel="preload" href="https://gcore.jsdelivr.net/gh/inkss/common@1/fonts/canva/LiuJianMaoCao.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/custom/my.png" as="font" type="font/png" crossorigin="anonymous">
 <link rel="preload" href="/custom/OPPOSans-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
   <!-- feed -->
@@ -46,10 +46,10 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/custom/log.svg">
 <meta property="article:published_time" content="2025-02-18T13:37:45.161Z">
-<meta property="article:modified_time" content="2025-02-21T13:48:42.904Z">
+<meta property="article:modified_time" content="2025-03-23T10:29:52.131Z">
 <meta property="article:author" content="Mann">
 <meta property="article:tag" content="Kubernetes">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/custom/log.svg">
   <style>
     /* 首屏样式 */
@@ -878,7 +878,7 @@ button {
 }
 @font-face {
   font-family: 'mp';
-  src: url("https://gcore.jsdelivr.net/gh/inkss/common@1/fonts/canva/LiuJianMaoCao.woff2");
+  src: url("/custom/my.png");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1793,7 +1793,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1742721894934),
+    lastupdate: new Date(1742727267691),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo","music"],
       for_post: ["toc"],
@@ -2245,7 +2245,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='/custom/logo.svg'/>
+            <img no-lazy class='logo' src='https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png'/>
           
           
           
@@ -2261,13 +2261,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="主页"
+                href="/" title="Alldocuments"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                  <i class='fa-solid fa-rss fa-fw'></i>Alldocuments
                 </a>
                 
               </li>
@@ -2278,107 +2278,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="更多"
+                href="/tags/Linux/" title="Linux"
                   
                   
+                  
+                    active-action="action-tagsLinux"
                   >
-                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
-                </a>
-                
-                  <ul class="list-v">
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Linux
                 </a>
                 
               </li>
             
           
-                    
-                      
+          
+            
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
+                href="/tags/Docker/" title="Docker"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-tagsDocker"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                  <i class='fa-solid fa-tags fa-fw'></i>Docker
                 </a>
                 
               </li>
             
           
-                    
-                      
+          
+            
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/tags/Kubernetes/" title="Kubernetes"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-tagsKubernetes"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-archive fa-fw'></i>Kubernetes
                 </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <hr>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
-                  
-                  
-                  
-                    active-action="action-friends"
-                  >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
-                </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
-                  
-                  
-                  
-                    active-action="action-about"
-                  >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
-                </a>
-                
-              </li>
-            
-          
-                    
-                  </ul>
                 
               </li>
             
@@ -2388,7 +2329,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>Daytimemode
                 </a>
               <li>
             
@@ -2400,7 +2341,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
           <i class="icon fa-solid fa-search fa-fw"></i>
-          <input type="text" class="input u-search-input" placeholder="- 搜搜有意思的 -" />
+          <input type="text" class="input u-search-input" placeholder="mp note searching - mp" />
         </form>
       </div>
       
@@ -2417,13 +2358,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/" title="主页"
+                href="/" title="Alldocuments"
                   
                   
                   
                     active-action="action-home"
                   >
-                  <i class='fa-solid fa-rss fa-fw'></i>主页
+                  <i class='fa-solid fa-rss fa-fw'></i>Alldocuments
                 </a>
                 
               </li>
@@ -2434,107 +2375,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="更多"
+                href="/tags/Linux/" title="Linux"
                   
                   
+                  
+                    active-action="action-tagsLinux"
                   >
-                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
-                </a>
-                
-                  <ul class="list-v">
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="分类"
-                  
-                  
-                  
-                    active-action="action-categories"
-                  >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>分类
+                  <i class='fa-solid fa-folder-open fa-fw'></i>Linux
                 </a>
                 
               </li>
             
           
-                    
-                      
+            
+              
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/tags/" title="标签"
+                href="/tags/Docker/" title="Docker"
                   
                   
                   
-                    active-action="action-tags"
+                    active-action="action-tagsDocker"
                   >
-                  <i class='fa-solid fa-tags fa-fw'></i>标签
+                  <i class='fa-solid fa-tags fa-fw'></i>Docker
                 </a>
                 
               </li>
             
           
-                    
-                      
+            
+              
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/archives/" title="归档"
+                href="/tags/Kubernetes/" title="Kubernetes"
                   
                   
                   
-                    active-action="action-archives"
+                    active-action="action-tagsKubernetes"
                   >
-                  <i class='fa-solid fa-archive fa-fw'></i>归档
+                  <i class='fa-solid fa-archive fa-fw'></i>Kubernetes
                 </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <hr>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/friends/" title="友链"
-                  
-                  
-                  
-                    active-action="action-friends"
-                  >
-                  <i class='fa-solid fa-link fa-fw'></i>友链
-                </a>
-                
-              </li>
-            
-          
-                    
-                      
-            
-              <li>
-                <a class="menuitem flat-box faa-parent animated-hover"
-                href="/about/" title="关于"
-                  
-                  
-                  
-                    active-action="action-about"
-                  >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于
-                </a>
-                
-              </li>
-            
-          
-                    
-                  </ul>
                 
               </li>
             
@@ -2544,7 +2426,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-circle-half-stroke fa-fw'></i>Daytimemode
                 </a>
               <li>
             
@@ -2674,7 +2556,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
   <a itemprop="url" class='author' href="/" rel="nofollow">
     <img itemprop="image" src="/custom/avatar.jpg" class="lazyload" data-srcset="/custom/avatar.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-    <p itemprop="name">TiDra</p>
+    <p itemprop="name">你想改啥就改啥</p>
   </a>
 </div>
 
@@ -2682,6 +2564,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
             
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/Kubernetes/">Kubernetes</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/Kubernetes/" itemprop="url"><span itemprop="name">Kubernetes</span></a>
+      </span>
+    
+  </div>
+
 
           
         
@@ -2823,7 +2715,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">vim</span> <span class="string">nginx.yaml</span></span><br><span class="line"><span class="attr">apiVersion:</span> <span class="string">v1</span>                  <span class="comment"># API的版本号</span></span><br><span class="line"><span class="attr">kind:</span> <span class="string">Pod</span>                       <span class="comment"># 类型为 Pod</span></span><br><span class="line"><span class="attr">metadata:</span>                       <span class="comment"># 元数据信息</span></span><br><span class="line">  <span class="attr">labels:</span>                       <span class="comment"># 标签</span></span><br><span class="line">    <span class="attr">run:</span> <span class="string">nginx</span>                  <span class="comment"># key=value标签</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">nginx</span>                   <span class="comment"># pod名称</span></span><br><span class="line"><span class="attr">spec:</span>                           <span class="comment"># 用于定义Pod的详细信息</span></span><br><span class="line">  <span class="attr">containers:</span>                   <span class="comment"># 配置容器的位置/容器列表</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">nginx</span>                 <span class="comment"># 容器的名称</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">nginx:1.14.2</span>         <span class="comment"># 容器所用的镜像地址</span></span><br><span class="line">    <span class="attr">ports:</span>                      <span class="comment"># 容器需要暴露的端口号列表</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">containerPort:</span> <span class="number">80</span>         <span class="comment"># 端口号</span></span><br></pre></td></tr></table></figure>
 <h2 id="创建上面的yaml文件示例Pod"><a href="#创建上面的yaml文件示例Pod" class="headerlink" title="创建上面的yaml文件示例Pod"></a>创建上面的yaml文件示例Pod</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl create -f nginx.yaml</span><br></pre></td></tr></table></figure>
 <p>简单流程：yaml文件编辑好以后，通过kubectl创建这个文件，将文件发送给apiserver，apiserver将文件内容持久化存储到etcd，这样scheduler和controller manage检测到变化后，然后部署到cluster中。</p>
-<h2 id="删除pod-x2F-删除通过yaml创建的pod"><a href="#删除pod-x2F-删除通过yaml创建的pod" class="headerlink" title="删除pod&#x2F;删除通过yaml创建的pod"></a>删除pod&#x2F;删除通过yaml创建的pod</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">kubectl delete pod nginx</span><br><span class="line">kubectl delete -f nginx.yaml</span><br></pre></td></tr></table></figure>
+<h2 id="删除pod-删除通过yaml创建的pod"><a href="#删除pod-删除通过yaml创建的pod" class="headerlink" title="删除pod&#x2F;删除通过yaml创建的pod"></a>删除pod&#x2F;删除通过yaml创建的pod</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">kubectl delete pod nginx</span><br><span class="line">kubectl delete -f nginx.yaml</span><br></pre></td></tr></table></figure>
 <h2 id="遇到问题通过describe查看pod日志详情"><a href="#遇到问题通过describe查看pod日志详情" class="headerlink" title="遇到问题通过describe查看pod日志详情"></a>遇到问题通过describe查看pod日志详情</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl logs -f podname</span><br></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl describe pod podname</span><br></pre></td></tr></table></figure>
 
@@ -2850,10 +2742,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-02-21T21:48:42+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-03-23T18:29:52+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2025年2月21日</p>
+    <p>更新于：2025年3月23日</p>
   </a>
 </div>
 
@@ -2949,7 +2841,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Pause%E5%AE%B9%E5%99%A8"><span class="toc-text">Pause容器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%BC%95%E5%85%A5Pod"><span class="toc-text">为什么要引入Pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E7%9B%B8%E5%85%B3%E7%8A%B6%E6%80%81%E9%98%B6%E6%AE%B5"><span class="toc-text">Pod的相关状态阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E9%95%9C%E5%83%8F%E6%8B%89%E5%8F%96%E7%AD%96%E7%95%A5"><span class="toc-text">Pod的镜像拉取策略</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%94%B9%E9%95%9C%E5%83%8F%E6%8B%89%E5%8F%96%E7%AD%96%E7%95%A5"><span class="toc-text">更改镜像拉取策略</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AA%8C%E8%AF%81"><span class="toc-text">验证</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E9%87%8D%E5%90%AF%E7%AD%96%E7%95%A5%E8%A7%A3%E6%9E%90"><span class="toc-text">Pod的重启策略解析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%94%B9%E5%AE%B9%E5%99%A8%E7%9A%84%E9%87%8D%E5%90%AF%E7%AD%96%E7%95%A5"><span class="toc-text">更改容器的重启策略</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AA%8C%E8%AF%81-1"><span class="toc-text">验证</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E6%8E%A2%E9%92%88%E7%B1%BB%E5%9E%8B%E8%A7%A3%E6%9E%90"><span class="toc-text">Pod的探针类型解析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#startupProbe"><span class="toc-text">startupProbe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#livenessProbe"><span class="toc-text">livenessProbe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#readinessProbe"><span class="toc-text">readinessProbe</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E6%8E%A2%E9%92%88%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F"><span class="toc-text">Pod探针的实现方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Exec"><span class="toc-text">Exec</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTPGet"><span class="toc-text">HTTPGet</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#TCPSocket"><span class="toc-text">TCPSocket</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A2%E9%92%88%E7%9A%84%E9%80%9A%E7%94%A8%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0"><span class="toc-text">探针的通用配置参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8Byaml%EF%BC%9A%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E5%A6%82%E4%B8%8B"><span class="toc-text">示例yaml：完整配置如下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8Byaml%EF%BC%9A%E6%B5%8B%E8%AF%95%E6%A8%A1%E6%9D%BF%E5%A6%82%E4%B8%8B"><span class="toc-text">示例yaml：测试模板如下</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%90%AF%E5%8A%A8%E4%B8%8E%E9%80%80%E5%87%BA"><span class="toc-text">Pod的生命周期启动与退出</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8"><span class="toc-text">启动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%80%E5%87%BA"><span class="toc-text">退出</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bpod%E4%BF%A1%E6%81%AF"><span class="toc-text">查看pod信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bpod%E7%9A%84IP%E5%9C%B0%E5%9D%80"><span class="toc-text">查看pod的IP地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bdev%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E4%B8%8B%E7%9A%84pod"><span class="toc-text">查看dev命名空间下的pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E8%BF%87%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AApod"><span class="toc-text">通过命令行的形式创建一个pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E8%BF%87%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%88%9B%E5%BB%BApod%E7%94%9F%E6%88%90yaml%E6%96%87%E4%BB%B6"><span class="toc-text">通过命令行的形式创建pod生成yaml文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%8A%E9%9D%A2%E7%9A%84yaml%E6%96%87%E4%BB%B6%E7%A4%BA%E4%BE%8BPod"><span class="toc-text">创建上面的yaml文件示例Pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A0%E9%99%A4pod-x2F-%E5%88%A0%E9%99%A4%E9%80%9A%E8%BF%87yaml%E5%88%9B%E5%BB%BA%E7%9A%84pod"><span class="toc-text">删除pod&#x2F;删除通过yaml创建的pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E9%80%9A%E8%BF%87describe%E6%9F%A5%E7%9C%8Bpod%E6%97%A5%E5%BF%97%E8%AF%A6%E6%83%85"><span class="toc-text">遇到问题通过describe查看pod日志详情</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Pause%E5%AE%B9%E5%99%A8"><span class="toc-text">Pause容器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%BC%95%E5%85%A5Pod"><span class="toc-text">为什么要引入Pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E7%9B%B8%E5%85%B3%E7%8A%B6%E6%80%81%E9%98%B6%E6%AE%B5"><span class="toc-text">Pod的相关状态阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E9%95%9C%E5%83%8F%E6%8B%89%E5%8F%96%E7%AD%96%E7%95%A5"><span class="toc-text">Pod的镜像拉取策略</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%94%B9%E9%95%9C%E5%83%8F%E6%8B%89%E5%8F%96%E7%AD%96%E7%95%A5"><span class="toc-text">更改镜像拉取策略</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AA%8C%E8%AF%81"><span class="toc-text">验证</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E9%87%8D%E5%90%AF%E7%AD%96%E7%95%A5%E8%A7%A3%E6%9E%90"><span class="toc-text">Pod的重启策略解析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%94%B9%E5%AE%B9%E5%99%A8%E7%9A%84%E9%87%8D%E5%90%AF%E7%AD%96%E7%95%A5"><span class="toc-text">更改容器的重启策略</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AA%8C%E8%AF%81-1"><span class="toc-text">验证</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E6%8E%A2%E9%92%88%E7%B1%BB%E5%9E%8B%E8%A7%A3%E6%9E%90"><span class="toc-text">Pod的探针类型解析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#startupProbe"><span class="toc-text">startupProbe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#livenessProbe"><span class="toc-text">livenessProbe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#readinessProbe"><span class="toc-text">readinessProbe</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E6%8E%A2%E9%92%88%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F"><span class="toc-text">Pod探针的实现方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Exec"><span class="toc-text">Exec</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTPGet"><span class="toc-text">HTTPGet</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#TCPSocket"><span class="toc-text">TCPSocket</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A2%E9%92%88%E7%9A%84%E9%80%9A%E7%94%A8%E9%85%8D%E7%BD%AE%E5%8F%82%E6%95%B0"><span class="toc-text">探针的通用配置参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8Byaml%EF%BC%9A%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E5%A6%82%E4%B8%8B"><span class="toc-text">示例yaml：完整配置如下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8Byaml%EF%BC%9A%E6%B5%8B%E8%AF%95%E6%A8%A1%E6%9D%BF%E5%A6%82%E4%B8%8B"><span class="toc-text">示例yaml：测试模板如下</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pod%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%90%AF%E5%8A%A8%E4%B8%8E%E9%80%80%E5%87%BA"><span class="toc-text">Pod的生命周期启动与退出</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8"><span class="toc-text">启动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%80%E5%87%BA"><span class="toc-text">退出</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bpod%E4%BF%A1%E6%81%AF"><span class="toc-text">查看pod信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bpod%E7%9A%84IP%E5%9C%B0%E5%9D%80"><span class="toc-text">查看pod的IP地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E7%9C%8Bdev%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E4%B8%8B%E7%9A%84pod"><span class="toc-text">查看dev命名空间下的pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E8%BF%87%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AApod"><span class="toc-text">通过命令行的形式创建一个pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E8%BF%87%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%88%9B%E5%BB%BApod%E7%94%9F%E6%88%90yaml%E6%96%87%E4%BB%B6"><span class="toc-text">通过命令行的形式创建pod生成yaml文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%8A%E9%9D%A2%E7%9A%84yaml%E6%96%87%E4%BB%B6%E7%A4%BA%E4%BE%8BPod"><span class="toc-text">创建上面的yaml文件示例Pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A0%E9%99%A4pod-%E5%88%A0%E9%99%A4%E9%80%9A%E8%BF%87yaml%E5%88%9B%E5%BB%BA%E7%9A%84pod"><span class="toc-text">删除pod&#x2F;删除通过yaml创建的pod</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E9%80%9A%E8%BF%87describe%E6%9F%A5%E7%9C%8Bpod%E6%97%A5%E5%BF%97%E8%AF%A6%E6%83%85"><span class="toc-text">遇到问题通过describe查看pod日志详情</span></a></li></ol>
     </div>
   </section>
 
@@ -3062,8 +2954,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2024 小TiD笔记</a></p>
-
+        
         </div>
       
     
@@ -3099,10 +2990,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 <!-- required -->
-
-  
-<script src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/jquery/dist/jquery.min.js"></script>
-
 
 
 <!-- internal -->
@@ -4055,7 +3942,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","sameAs":["https://github.com/Tidra"],"description":"zero in your target,and go for it."},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Mann"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2025/02/18/Pod/","name":"Pod"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Mann","url":"http://example.com/","keywords":null,"description":"zero in your target,and go for it.","author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","description":"zero in your target,and go for it."},"publisher":{"@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Pod","description":"zero in your target,and go for it.","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/02/18/Pod/"},"author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Mann","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"url":"http://example.com/2025/02/18/Pod/","wordCount":0,"datePublished":"2025-02-18T13:37:45.161Z","dateModified":"2025-02-21T13:48:42.904Z","keywords":"Kubernetes","image":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","sameAs":["https://github.com/mpcouple/mpcouple.github.io"],"description":"zero in your target,and go for it."},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Mann"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/Kubernetes/","name":"Kubernetes"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2025/02/18/Pod/","name":"Pod"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Mann","url":"http://example.com/","keywords":null,"description":"zero in your target,and go for it.","author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/","description":"zero in your target,and go for it."},"publisher":{"@type":"Organization","name":"Mann","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Pod","description":"zero in your target,and go for it.","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/02/18/Pod/"},"author":{"@type":"Person","name":"Mann","image":{"@type":"ImageObject","url":"/custom/log.svg"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Mann","logo":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}},"url":"http://example.com/2025/02/18/Pod/","wordCount":0,"datePublished":"2025-02-18T13:37:45.161Z","dateModified":"2025-03-23T10:29:52.131Z","articleSection":"Kubernetes","keywords":"Kubernetes","image":{"@type":"ImageObject","url":"/custom/log.svg","width":192,"height":192}}]</script>
 
 
 
